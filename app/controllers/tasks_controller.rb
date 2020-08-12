@@ -5,7 +5,10 @@ class TasksController < ApplicationController
     @tasks = ['Task 1', 'Task 2', 'Task 3']
   end
 
-  def show
-    @task = 'Task 1'
+  def new
+  end
+
+  def create
+    require "pry"; binding.pry
   end
 end
